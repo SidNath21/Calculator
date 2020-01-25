@@ -1,0 +1,135 @@
+body{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #292930;
+    text-align: center;
+    background-image: url("math.jpg"); 
+}
+
+.calculator{
+    width: 25%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: lightcoral;
+    box-shadow: 0 0 3px 3px red;
+    
+    
+}
+
+.calculator-content{
+    border: 5px solid black;
+    border-radius: 3px; 
+}
+
+.display{
+    
+    height: 20%;
+    background-color: black;
+    align-self: center;
+    
+   /* border-bottom: 3px solid white; */
+      
+}
+
+.top-bar{
+    height: 30%;
+    border: 3px solid blue;
+    background-color: rgb(36,133,242);
+}
+
+.bottom{
+    height: 70%;
+}
+
+.equation{
+    margin: auto;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 5px;
+    
+}
+
+.displayMessage{
+    margin: auto;
+    font-size: 48px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.buttonsContainer{
+   
+    background-color: black;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    
+    
+}
+
+#equal{
+    grid-column: span 2;
+}
+
+button{
+    border-width: 0;
+    text-align: center;
+    font-size: 36px;
+    
+    color: white;
+    margin: 3px;
+    border-radius: 15px;
+    
+}
+
+button:focus {outline:0;}
+
+.number{
+    background-color: #292930;
+}
+
+.number:hover{
+    background-color: grey;
+}
+
+.operator{
+    background-color: orange;
+    font-weight: bold;
+}
+
+.operator:hover{
+    background-color: sandybrown;
+}
+
+#equal:focus{ 
+    background-color: orange;
+    color: white;
+}
+.operator:focus{
+    background-color: white;
+    color: orange;
+}
+
+
+#extra {
+    background-color: darkgrey;
+    color: black;
+    font-size: 28px;
+}
+
+#extra:hover{
+    background-color: white;
+}
+
+
+
+
+
+
