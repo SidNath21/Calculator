@@ -15,7 +15,6 @@ body{
 .calculator{
 
     max-width: 350px;
-   
     margin: auto;
     justify-content: center;
     margin-bottom: 5%;
@@ -31,7 +30,8 @@ body{
 .calculator-content{
     border: 5px solid black;
     border-radius: 3px; 
-    max-width: 350px;
+    max-width: 100%;
+    
 }
 
 .display{
@@ -78,8 +78,6 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    max-width: 350px;
-    
     
 }
 
